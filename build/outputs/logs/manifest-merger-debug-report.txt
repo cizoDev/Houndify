@@ -1,0 +1,391 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:2:1-83:12
+INJECTED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:2:1-83:12
+INJECTED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:2:1-83:12
+INJECTED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:2:1-83:12
+MERGED from [tk.zielony:carbon:0.16.0.1] /Users/milin/.gradle/caches/transforms-2/files-2.1/d16a456cf9e2beb665d88da4d22703b6/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.databinding:databinding-adapters:3.4.1] /Users/milin/.gradle/caches/transforms-2/files-2.1/54c3648b291b13a049205c26f1dd9e83/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.databinding:databinding-runtime:3.4.1] /Users/milin/.gradle/caches/transforms-2/files-2.1/9a4896af18efdc9bcc3a1bb599bd1fd0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.mapzen.android:speakerbox:1.4.1] /Users/milin/.gradle/caches/transforms-2/files-2.1/03fbb156da57256d6c154e5ab83f52be/AndroidManifest.xml:2:1-17:12
+MERGED from [com.karumi:dexter:6.2.2] /Users/milin/.gradle/caches/transforms-2/files-2.1/c8776a9348088186168c6c9d86f5b6d9/AndroidManifest.xml:17:1-32:12
+MERGED from [com.google.android.material:material:1.3.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/927f884f42b95bc49a71e63d860f40a6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/milin/.gradle/caches/transforms-2/files-2.1/6375c338ab4972dc4c924f57bd5cbfd4/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/030542987987290dcb4ab716e5510e32/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.gridlayout:gridlayout:1.0.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/efba1dee2c20e47069121669a74df6cd/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/df9fc0f373e9cb10e75f5fe29749cd78/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/522a70b14e7850478e47bb516872d8e1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/2a19d515473a0cc2a87284f5620807a3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/ff20ff30ad9ee05be2fb3d41d4b7fb29/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/7ed2c0026774b1b53d4fa3ae4b7e9bbc/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/a97068ed676813ade946613f328a7cad/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/fc94256e8bda25a98207263e11b82969/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/3c804bcd240fd26bd067665b1a353438/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/04f34123e84513d2d573b26cb2906ffe/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/24781a3aa77e4244cfff825c7f749cb0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/08aec544a5ed5637949c1c635e6cdd63/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/3588dbf0bfdff8738c3b3de15da52915/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/b6d3da19b35c0047ca64d47c2040ef4c/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/53919e0ef6418f7dc6ebf952f7415fe6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/a6c471dbf8cb42201c9df481811f0c8e/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/e95804c856fce99c6d9e782d48537051/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/6ecd904a38ace3123a2b581cf5f68811/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/058ccb5aa050d0607a32e05c7e35d940/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/107af2c954aaf56d78d401561d432b00/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.3.2] /Users/milin/.gradle/caches/transforms-2/files-2.1/7affa125a86dc6979986eda9e593ffcc/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/b2166484694f89ecbc66dd08bd3a0598/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.multidex:multidex:2.0.1] /Users/milin/.gradle/caches/transforms-2/files-2.1/beba2bb921f869f33368ae1f32ed9c2a/AndroidManifest.xml:17:1-22:12
+MERGED from [hound.android:hound-sdk:1.5.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/f5629197f680dce934ebc297381e178c/AndroidManifest.xml:2:1-16:12
+MERGED from [hound.android:hound-sdk-core:1.5.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/4eb2c372cd2f20c2537742535e81a916/AndroidManifest.xml:2:1-13:12
+MERGED from [hound.android:phrasespotter:1.8.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/2f4ecea0731725aa63dd63a16190a5e9/AndroidManifest.xml:2:1-13:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/6a07a7615a787fc997b2e7dc83505037/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/4361b09a5b2b467816005910addcf5b6/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/478076f4ff0b75e803489282e77164c1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/a1ddb4e528d51664d9927ef44d6d1c31/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/c6f4bef7c603e081d835bc6ae6146f2f/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/c78dcbac3710cfa3be772801ffc101af/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/3a7e08fac925b2579f87fdecc12e5da7/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/a56e5d40879b943aa677b521575518a1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/761655bcd936d50859912fbaad0fac2d/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/227d91998750f323f41dd47a2b28cbbc/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/17139fc4df70cf72a861fa3b7f15098d/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/e121507d325e5b0c3828f886734a7442/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/b5adc4ce24ff35496e46996523bd3000/AndroidManifest.xml:17:1-24:12
+MERGED from [soundhound.android:speex:1.3.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/11f074e41f8c3fb285cab94cc7a9d799/AndroidManifest.xml:2:1-13:12
+MERGED from [soundhound.android:ogg-opus-encoder:1.0.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/98229c1bfca6b7f2212d866e220faa85/AndroidManifest.xml:2:1-11:12
+MERGED from [soundhound.android:vad:1.2.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/f3348e3bba35ee264047f92431dd8174/AndroidManifest.xml:2:1-13:12
+INJECTED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:2:1-83:12
+INJECTED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:2:1-83:12
+INJECTED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:2:1-83:12
+	package
+		ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:4:5-34
+		INJECTED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml
+		INJECTED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml
+		ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:2:1-83:12
+		INJECTED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml
+		ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:2:1-83:12
+		INJECTED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.CALL_PHONE
+ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:6:5-69
+	android:name
+		ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:6:22-66
+uses-permission#android.permission.INTERNET
+ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:7:5-67
+MERGED from [hound.android:hound-sdk-core:1.5.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/4eb2c372cd2f20c2537742535e81a916/AndroidManifest.xml:10:5-67
+MERGED from [hound.android:hound-sdk-core:1.5.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/4eb2c372cd2f20c2537742535e81a916/AndroidManifest.xml:10:5-67
+	android:name
+		ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:7:22-64
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:8:5-71
+	android:name
+		ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:8:22-68
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:9:5-81
+	android:name
+		ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:9:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:10:5-79
+	android:name
+		ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:10:22-76
+uses-permission#android.permission.READ_CONTACTS
+ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:11:5-72
+	android:name
+		ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:11:22-69
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:12:5-81
+	android:name
+		ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:12:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:13:5-80
+	android:name
+		ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:13:22-77
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:14:5-80
+	android:name
+		ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:14:22-77
+uses-permission#android.permission.BLUETOOTH
+ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:15:5-68
+	android:name
+		ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:15:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:16:5-74
+	android:name
+		ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:16:22-71
+uses-permission#android.permission.DISABLE_KEYGUARD
+ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:17:5-75
+	android:name
+		ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:17:22-72
+uses-permission#android.permission.READ_SMS
+ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:18:5-67
+	android:name
+		ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:18:22-64
+uses-permission#android.permission.SEND_SMS
+ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:19:5-67
+	android:name
+		ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:19:22-64
+uses-permission#android.permission.WRITE_SMS
+ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:20:5-68
+	android:name
+		ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:20:22-65
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:21:5-68
+	android:name
+		ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:21:22-65
+application
+ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:23:5-81:19
+MERGED from [com.mapzen.android:speakerbox:1.4.1] /Users/milin/.gradle/caches/transforms-2/files-2.1/03fbb156da57256d6c154e5ab83f52be/AndroidManifest.xml:11:5-15:19
+MERGED from [com.mapzen.android:speakerbox:1.4.1] /Users/milin/.gradle/caches/transforms-2/files-2.1/03fbb156da57256d6c154e5ab83f52be/AndroidManifest.xml:11:5-15:19
+MERGED from [com.karumi:dexter:6.2.2] /Users/milin/.gradle/caches/transforms-2/files-2.1/c8776a9348088186168c6c9d86f5b6d9/AndroidManifest.xml:26:5-30:19
+MERGED from [com.karumi:dexter:6.2.2] /Users/milin/.gradle/caches/transforms-2/files-2.1/c8776a9348088186168c6c9d86f5b6d9/AndroidManifest.xml:26:5-30:19
+MERGED from [com.google.android.material:material:1.3.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/927f884f42b95bc49a71e63d860f40a6/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.3.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/927f884f42b95bc49a71e63d860f40a6/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/milin/.gradle/caches/transforms-2/files-2.1/6375c338ab4972dc4c924f57bd5cbfd4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/milin/.gradle/caches/transforms-2/files-2.1/6375c338ab4972dc4c924f57bd5cbfd4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.core:core:1.3.2] /Users/milin/.gradle/caches/transforms-2/files-2.1/7affa125a86dc6979986eda9e593ffcc/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.3.2] /Users/milin/.gradle/caches/transforms-2/files-2.1/7affa125a86dc6979986eda9e593ffcc/AndroidManifest.xml:24:5-89
+MERGED from [hound.android:hound-sdk:1.5.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/f5629197f680dce934ebc297381e178c/AndroidManifest.xml:10:5-14:19
+MERGED from [hound.android:hound-sdk:1.5.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/f5629197f680dce934ebc297381e178c/AndroidManifest.xml:10:5-14:19
+MERGED from [hound.android:phrasespotter:1.8.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/2f4ecea0731725aa63dd63a16190a5e9/AndroidManifest.xml:11:5-20
+MERGED from [hound.android:phrasespotter:1.8.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/2f4ecea0731725aa63dd63a16190a5e9/AndroidManifest.xml:11:5-20
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/4361b09a5b2b467816005910addcf5b6/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/4361b09a5b2b467816005910addcf5b6/AndroidManifest.xml:24:5-25:19
+MERGED from [soundhound.android:speex:1.3.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/11f074e41f8c3fb285cab94cc7a9d799/AndroidManifest.xml:11:5-20
+MERGED from [soundhound.android:speex:1.3.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/11f074e41f8c3fb285cab94cc7a9d799/AndroidManifest.xml:11:5-20
+MERGED from [soundhound.android:vad:1.2.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/f3348e3bba35ee264047f92431dd8174/AndroidManifest.xml:11:5-20
+MERGED from [soundhound.android:vad:1.2.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/f3348e3bba35ee264047f92431dd8174/AndroidManifest.xml:11:5-20
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.3.2] /Users/milin/.gradle/caches/transforms-2/files-2.1/7affa125a86dc6979986eda9e593ffcc/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from [com.mapzen.android:speakerbox:1.4.1] /Users/milin/.gradle/caches/transforms-2/files-2.1/03fbb156da57256d6c154e5ab83f52be/AndroidManifest.xml:14:9-35
+	android:label
+		ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:27:9-41
+	tools:ignore
+		ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:29:9-60
+	android:icon
+		ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:26:9-43
+	android:allowBackup
+		ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:25:9-35
+	android:theme
+		ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:28:9-65
+	android:name
+		ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:24:9-36
+activity#com.houndify.sample.SplashActivity
+ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:30:9-41:20
+	android:screenOrientation
+		ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:33:13-49
+	android:label
+		ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:31:13-43
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.DEFAULT+category:name:android.intent.category.LAUNCHER
+ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:35:13-40:29
+category#android.intent.category.DEFAULT
+ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:36:17-76
+	android:name
+		ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:36:27-73
+category#android.intent.category.LAUNCHER
+ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:37:17-77
+	android:name
+		ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:37:27-74
+action#android.intent.action.MAIN
+ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:39:17-69
+	android:name
+		ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:39:25-66
+activity#com.houndify.sample.DashboardActivity
+ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:42:9-52:20
+	android:label
+		ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:44:13-41
+	android:name
+		ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:43:13-46
+activity#com.houndify.sample.HoundifyVoiceSearchWithPhraseSpotterActivity
+ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:53:9-82
+	android:name
+		ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:53:19-79
+activity#com.houndify.sample.VoiceSearchActivity
+ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:54:9-78:20
+	android:screenOrientation
+		ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:58:13-49
+	android:label
+		ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:57:13-37
+	android:excludeFromRecents
+		ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:56:13-46
+	android:name
+		ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:55:13-48
+intent-filter#action:name:android.Intent.ACTION_USER_PRESENT+action:name:android.intent.action.SCREEN_OFF+action:name:android.intent.action.SCREEN_ON+action:name:android.permission.WAKE_LOCK
+ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:59:13-67:29
+action#android.intent.action.SCREEN_ON
+ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:63:17-74
+	android:name
+		ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:63:25-71
+action#android.intent.action.SCREEN_OFF
+ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:64:17-75
+	android:name
+		ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:64:25-72
+action#android.Intent.ACTION_USER_PRESENT
+ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:65:17-77
+	android:name
+		ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:65:25-74
+action#android.permission.WAKE_LOCK
+ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:66:17-71
+	android:name
+		ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:66:25-68
+intent-filter#action:name:android.intent.action.ASSIST+category:name:android.intent.category.DEFAULT
+ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:68:13-72:29
+action#android.intent.action.ASSIST
+ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:69:17-71
+	android:name
+		ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:69:25-68
+intent-filter#action:name:android.intent.action.VOICE_COMMAND+category:name:android.intent.category.DEFAULT
+ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:73:13-77:29
+	android:priority
+		ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:73:28-48
+action#android.intent.action.VOICE_COMMAND
+ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:74:17-78
+	android:name
+		ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:74:25-75
+activity#com.houndify.sample.TextSearchActivity
+ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:79:9-56
+	android:name
+		ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:79:19-53
+activity#com.houndify.sample.TextSearchActivityNew
+ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:80:9-59
+	android:name
+		ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:80:19-56
+uses-sdk
+INJECTED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml
+INJECTED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml
+MERGED from [tk.zielony:carbon:0.16.0.1] /Users/milin/.gradle/caches/transforms-2/files-2.1/d16a456cf9e2beb665d88da4d22703b6/AndroidManifest.xml:7:5-9:41
+MERGED from [tk.zielony:carbon:0.16.0.1] /Users/milin/.gradle/caches/transforms-2/files-2.1/d16a456cf9e2beb665d88da4d22703b6/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.databinding:databinding-adapters:3.4.1] /Users/milin/.gradle/caches/transforms-2/files-2.1/54c3648b291b13a049205c26f1dd9e83/AndroidManifest.xml:22:5-44
+MERGED from [androidx.databinding:databinding-adapters:3.4.1] /Users/milin/.gradle/caches/transforms-2/files-2.1/54c3648b291b13a049205c26f1dd9e83/AndroidManifest.xml:22:5-44
+MERGED from [androidx.databinding:databinding-runtime:3.4.1] /Users/milin/.gradle/caches/transforms-2/files-2.1/9a4896af18efdc9bcc3a1bb599bd1fd0/AndroidManifest.xml:22:5-44
+MERGED from [androidx.databinding:databinding-runtime:3.4.1] /Users/milin/.gradle/caches/transforms-2/files-2.1/9a4896af18efdc9bcc3a1bb599bd1fd0/AndroidManifest.xml:22:5-44
+MERGED from [com.mapzen.android:speakerbox:1.4.1] /Users/milin/.gradle/caches/transforms-2/files-2.1/03fbb156da57256d6c154e5ab83f52be/AndroidManifest.xml:7:5-9:41
+MERGED from [com.mapzen.android:speakerbox:1.4.1] /Users/milin/.gradle/caches/transforms-2/files-2.1/03fbb156da57256d6c154e5ab83f52be/AndroidManifest.xml:7:5-9:41
+MERGED from [com.karumi:dexter:6.2.2] /Users/milin/.gradle/caches/transforms-2/files-2.1/c8776a9348088186168c6c9d86f5b6d9/AndroidManifest.xml:22:5-24:41
+MERGED from [com.karumi:dexter:6.2.2] /Users/milin/.gradle/caches/transforms-2/files-2.1/c8776a9348088186168c6c9d86f5b6d9/AndroidManifest.xml:22:5-24:41
+MERGED from [com.google.android.material:material:1.3.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/927f884f42b95bc49a71e63d860f40a6/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.3.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/927f884f42b95bc49a71e63d860f40a6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/milin/.gradle/caches/transforms-2/files-2.1/6375c338ab4972dc4c924f57bd5cbfd4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/milin/.gradle/caches/transforms-2/files-2.1/6375c338ab4972dc4c924f57bd5cbfd4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/030542987987290dcb4ab716e5510e32/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/030542987987290dcb4ab716e5510e32/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.gridlayout:gridlayout:1.0.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/efba1dee2c20e47069121669a74df6cd/AndroidManifest.xml:20:5-44
+MERGED from [androidx.gridlayout:gridlayout:1.0.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/efba1dee2c20e47069121669a74df6cd/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/df9fc0f373e9cb10e75f5fe29749cd78/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/df9fc0f373e9cb10e75f5fe29749cd78/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/522a70b14e7850478e47bb516872d8e1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/522a70b14e7850478e47bb516872d8e1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/2a19d515473a0cc2a87284f5620807a3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/2a19d515473a0cc2a87284f5620807a3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/ff20ff30ad9ee05be2fb3d41d4b7fb29/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/ff20ff30ad9ee05be2fb3d41d4b7fb29/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/7ed2c0026774b1b53d4fa3ae4b7e9bbc/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/7ed2c0026774b1b53d4fa3ae4b7e9bbc/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/a97068ed676813ade946613f328a7cad/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/a97068ed676813ade946613f328a7cad/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/fc94256e8bda25a98207263e11b82969/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/fc94256e8bda25a98207263e11b82969/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/3c804bcd240fd26bd067665b1a353438/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/3c804bcd240fd26bd067665b1a353438/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/04f34123e84513d2d573b26cb2906ffe/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/04f34123e84513d2d573b26cb2906ffe/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/24781a3aa77e4244cfff825c7f749cb0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/24781a3aa77e4244cfff825c7f749cb0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/08aec544a5ed5637949c1c635e6cdd63/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/08aec544a5ed5637949c1c635e6cdd63/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/3588dbf0bfdff8738c3b3de15da52915/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/3588dbf0bfdff8738c3b3de15da52915/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/b6d3da19b35c0047ca64d47c2040ef4c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/b6d3da19b35c0047ca64d47c2040ef4c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/53919e0ef6418f7dc6ebf952f7415fe6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/53919e0ef6418f7dc6ebf952f7415fe6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/a6c471dbf8cb42201c9df481811f0c8e/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/a6c471dbf8cb42201c9df481811f0c8e/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/e95804c856fce99c6d9e782d48537051/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/e95804c856fce99c6d9e782d48537051/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/6ecd904a38ace3123a2b581cf5f68811/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/6ecd904a38ace3123a2b581cf5f68811/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/058ccb5aa050d0607a32e05c7e35d940/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/058ccb5aa050d0607a32e05c7e35d940/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/107af2c954aaf56d78d401561d432b00/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/107af2c954aaf56d78d401561d432b00/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.3.2] /Users/milin/.gradle/caches/transforms-2/files-2.1/7affa125a86dc6979986eda9e593ffcc/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.2] /Users/milin/.gradle/caches/transforms-2/files-2.1/7affa125a86dc6979986eda9e593ffcc/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/b2166484694f89ecbc66dd08bd3a0598/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/b2166484694f89ecbc66dd08bd3a0598/AndroidManifest.xml:20:5-44
+MERGED from [androidx.multidex:multidex:2.0.1] /Users/milin/.gradle/caches/transforms-2/files-2.1/beba2bb921f869f33368ae1f32ed9c2a/AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.1] /Users/milin/.gradle/caches/transforms-2/files-2.1/beba2bb921f869f33368ae1f32ed9c2a/AndroidManifest.xml:20:5-43
+MERGED from [hound.android:hound-sdk:1.5.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/f5629197f680dce934ebc297381e178c/AndroidManifest.xml:6:5-8:41
+MERGED from [hound.android:hound-sdk:1.5.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/f5629197f680dce934ebc297381e178c/AndroidManifest.xml:6:5-8:41
+MERGED from [hound.android:hound-sdk-core:1.5.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/4eb2c372cd2f20c2537742535e81a916/AndroidManifest.xml:6:5-8:41
+MERGED from [hound.android:hound-sdk-core:1.5.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/4eb2c372cd2f20c2537742535e81a916/AndroidManifest.xml:6:5-8:41
+MERGED from [hound.android:phrasespotter:1.8.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/2f4ecea0731725aa63dd63a16190a5e9/AndroidManifest.xml:7:5-9:41
+MERGED from [hound.android:phrasespotter:1.8.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/2f4ecea0731725aa63dd63a16190a5e9/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/6a07a7615a787fc997b2e7dc83505037/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/6a07a7615a787fc997b2e7dc83505037/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/4361b09a5b2b467816005910addcf5b6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/4361b09a5b2b467816005910addcf5b6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/478076f4ff0b75e803489282e77164c1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/478076f4ff0b75e803489282e77164c1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/a1ddb4e528d51664d9927ef44d6d1c31/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/a1ddb4e528d51664d9927ef44d6d1c31/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/c6f4bef7c603e081d835bc6ae6146f2f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/c6f4bef7c603e081d835bc6ae6146f2f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/c78dcbac3710cfa3be772801ffc101af/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/c78dcbac3710cfa3be772801ffc101af/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/3a7e08fac925b2579f87fdecc12e5da7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/3a7e08fac925b2579f87fdecc12e5da7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/a56e5d40879b943aa677b521575518a1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/a56e5d40879b943aa677b521575518a1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/761655bcd936d50859912fbaad0fac2d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/761655bcd936d50859912fbaad0fac2d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/227d91998750f323f41dd47a2b28cbbc/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/227d91998750f323f41dd47a2b28cbbc/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/17139fc4df70cf72a861fa3b7f15098d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/17139fc4df70cf72a861fa3b7f15098d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/e121507d325e5b0c3828f886734a7442/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/e121507d325e5b0c3828f886734a7442/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/b5adc4ce24ff35496e46996523bd3000/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/b5adc4ce24ff35496e46996523bd3000/AndroidManifest.xml:20:5-22:41
+MERGED from [soundhound.android:speex:1.3.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/11f074e41f8c3fb285cab94cc7a9d799/AndroidManifest.xml:7:5-9:41
+MERGED from [soundhound.android:speex:1.3.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/11f074e41f8c3fb285cab94cc7a9d799/AndroidManifest.xml:7:5-9:41
+MERGED from [soundhound.android:ogg-opus-encoder:1.0.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/98229c1bfca6b7f2212d866e220faa85/AndroidManifest.xml:7:5-9:41
+MERGED from [soundhound.android:ogg-opus-encoder:1.0.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/98229c1bfca6b7f2212d866e220faa85/AndroidManifest.xml:7:5-9:41
+MERGED from [soundhound.android:vad:1.2.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/f3348e3bba35ee264047f92431dd8174/AndroidManifest.xml:7:5-9:41
+MERGED from [soundhound.android:vad:1.2.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/f3348e3bba35ee264047f92431dd8174/AndroidManifest.xml:7:5-9:41
+INJECTED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml
+INJECTED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml
+		ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml
+		INJECTED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml
+		ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml
+		INJECTED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml
+activity#com.karumi.dexter.DexterActivity
+ADDED from [com.karumi:dexter:6.2.2] /Users/milin/.gradle/caches/transforms-2/files-2.1/c8776a9348088186168c6c9d86f5b6d9/AndroidManifest.xml:27:9-29:72
+	android:theme
+		ADDED from [com.karumi:dexter:6.2.2] /Users/milin/.gradle/caches/transforms-2/files-2.1/c8776a9348088186168c6c9d86f5b6d9/AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.karumi:dexter:6.2.2] /Users/milin/.gradle/caches/transforms-2/files-2.1/c8776a9348088186168c6c9d86f5b6d9/AndroidManifest.xml:28:13-60
+activity#com.hound.android.fd.HoundifyVoiceSearchActivity
+ADDED from [hound.android:hound-sdk:1.5.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/f5629197f680dce934ebc297381e178c/AndroidManifest.xml:11:9-13:56
+	android:theme
+		ADDED from [hound.android:hound-sdk:1.5.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/f5629197f680dce934ebc297381e178c/AndroidManifest.xml:13:13-53
+	android:name
+		ADDED from [hound.android:hound-sdk:1.5.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/f5629197f680dce934ebc297381e178c/AndroidManifest.xml:12:13-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from [hound.android:hound-sdk-core:1.5.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/4eb2c372cd2f20c2537742535e81a916/AndroidManifest.xml:11:5-76
+	android:name
+		ADDED from [hound.android:hound-sdk-core:1.5.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/4eb2c372cd2f20c2537742535e81a916/AndroidManifest.xml:11:22-73

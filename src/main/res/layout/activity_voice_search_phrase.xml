@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:keepScreenOn="true"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/status_text_view"
+        style="@style/android:TextAppearance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp" />
+
+    <ProgressBar
+        android:id="@+id/pb"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_gravity="center"
+        android:visibility="invisible"
+        tools:visibility="visible" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="@dimen/carbon_marginHalf"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:textIsSelectable="true"
+            android:textSize="10sp"
+            android:visibility="invisible" />
+
+    </ScrollView>
+
+    <!--<Button-->
+    <!--android:id="@+id/btn_search"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginTop="8dp"-->
+    <!--android:text="Search" />-->
+
+    <carbon.widget.ImageView
+        android:id="@+id/btn_search"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        app:carbon_elevation="@dimen/carbon_elevationButton"
+        android:padding="@dimen/carbon_padding"
+        android:background="@color/carbon_black"
+        android:src="@drawable/ic_mic_black_24dp"
+        android:gravity="center"
+        android:layout_marginBottom="@dimen/carbon_marginHalf"
+        android:textColor="@color/carbon_white"
+        app:carbon_cornerRadius="30dp"
+        app:carbon_tint="@color/carbon_white" />
+
+</LinearLayout>

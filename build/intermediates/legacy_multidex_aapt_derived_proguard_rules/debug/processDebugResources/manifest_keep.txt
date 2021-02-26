@@ -1,0 +1,4 @@
+# Referenced at /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/build/intermediates/merged_manifests/debug/AndroidManifest.xml:29
+-keep class androidx.core.app.CoreComponentFactory { <init>(); }
+# Referenced at /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/build/intermediates/merged_manifests/debug/AndroidManifest.xml:29
+-keep class com.houndify.sample.PrefManager { <init>(); }
