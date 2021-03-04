@@ -57,4 +57,14 @@ public class PrefManager extends MultiDexApplication {
         editor.apply();
     }
 
+    public boolean isContactSync() {
+        return mPref.getBoolean("isSync", false);
+    }
+
+    public  void setContactSync(boolean contactSync) {
+        editor.putBoolean("isSync", contactSync);
+        editor.commit();
+    }
+
+
 }

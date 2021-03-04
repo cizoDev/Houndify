@@ -46,19 +46,42 @@
     <!--android:layout_marginTop="8dp"-->
     <!--android:text="Search" />-->
 
-    <carbon.widget.ImageView
-        android:id="@+id/btn_search"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:layout_gravity="center"
-        app:carbon_elevation="@dimen/carbon_elevationButton"
-        android:padding="@dimen/carbon_padding"
-        android:background="@color/carbon_black"
-        android:src="@drawable/ic_mic_black_24dp"
-        android:gravity="center"
-        android:layout_marginBottom="@dimen/carbon_marginHalf"
-        android:textColor="@color/carbon_white"
-        app:carbon_cornerRadius="30dp"
-        app:carbon_tint="@color/carbon_white" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <carbon.widget.ImageView
+            android:id="@+id/btn_search"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/carbon_marginHalf"
+            android:layout_marginBottom="@dimen/carbon_marginHalf"
+            android:background="@color/carbon_black"
+            android:gravity="center"
+            android:padding="@dimen/carbon_padding"
+            android:src="@drawable/ic_mic_black_24dp"
+            android:textColor="@color/carbon_white"
+            app:carbon_cornerRadius="30dp"
+            app:carbon_elevation="@dimen/carbon_elevationButton"
+            app:carbon_tint="@color/carbon_white" />
+
+        <carbon.widget.ImageView
+            android:id="@+id/btn_sync_contact"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/carbon_marginHalf"
+            android:layout_marginBottom="@dimen/carbon_marginHalf"
+            android:background="@color/carbon_black"
+            android:gravity="center"
+            android:padding="@dimen/carbon_padding"
+            android:src="@drawable/ic_sync_black_24dp"
+            android:textColor="@color/carbon_white"
+            app:carbon_cornerRadius="30dp"
+            app:carbon_elevation="@dimen/carbon_elevationButton"
+            app:carbon_tint="@color/carbon_white" />
+    </LinearLayout>
 
 </LinearLayout>

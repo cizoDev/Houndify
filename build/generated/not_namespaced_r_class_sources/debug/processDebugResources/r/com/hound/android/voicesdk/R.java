@@ -82,19 +82,19 @@ public final class R {
     public static final class id {
         private id() {}
 
-        public static final int content_root = 0x7f0800cc;
-        public static final int iv_abort_search = 0x7f08012b;
-        public static final int iv_attribution = 0x7f08012c;
-        public static final int iv_help = 0x7f08012d;
-        public static final int pulse_view = 0x7f080197;
-        public static final int search_button = 0x7f0801af;
-        public static final int search_content_area = 0x7f0801b1;
-        public static final int search_panel = 0x7f0801b5;
-        public static final int search_text_area = 0x7f0801b8;
-        public static final int tv_live_transcription = 0x7f080210;
-        public static final int tv_search_status = 0x7f080211;
-        public static final int tv_status_subtitle = 0x7f080212;
-        public static final int tv_status_title = 0x7f080213;
+        public static final int content_root = 0x7f0800cd;
+        public static final int iv_abort_search = 0x7f08012c;
+        public static final int iv_attribution = 0x7f08012d;
+        public static final int iv_help = 0x7f08012e;
+        public static final int pulse_view = 0x7f080198;
+        public static final int search_button = 0x7f0801b0;
+        public static final int search_content_area = 0x7f0801b2;
+        public static final int search_panel = 0x7f0801b6;
+        public static final int search_text_area = 0x7f0801b9;
+        public static final int tv_live_transcription = 0x7f080211;
+        public static final int tv_search_status = 0x7f080212;
+        public static final int tv_status_subtitle = 0x7f080213;
+        public static final int tv_status_title = 0x7f080214;
     }
     public static final class layout {
         private layout() {}

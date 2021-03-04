@@ -66,11 +66,11 @@ public class VoiceSearchActivity extends AppCompatActivity {
     private TextView statusTextView;
     ProgressBar pb;
     private carbon.widget.ImageView btnSearch;
+    private carbon.widget.ImageView btnContactSync;
     private TextView contentTextView;
 
     private LocationManager locationManager;
 
-    private boolean isContactSynced;
     private VoiceSearch voiceSearch;
 
     @Override
@@ -91,6 +91,7 @@ public class VoiceSearchActivity extends AppCompatActivity {
         pb = findViewById(R.id.pb);
 
         btnSearch = findViewById(R.id.btn_search);
+        btnContactSync = findViewById(R.id.btn_sync_contact);
         btnSearch.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -101,6 +102,14 @@ public class VoiceSearchActivity extends AppCompatActivity {
                 }*/
                 startSearch(new SimpleAudioByteStreamSource());
 
+            }
+        });
+
+        btnContactSync.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                stopSearch();
+                startTextSearchForContactsUpload();
             }
         });
 
@@ -163,7 +172,6 @@ public class VoiceSearchActivity extends AppCompatActivity {
 
 
         statusTextView.setText("Listening...");
-//        btnSearch.setText("");
     }
 
     private final Listener voiceListener = new Listener();
@@ -258,6 +266,8 @@ public class VoiceSearchActivity extends AppCompatActivity {
             pb.setVisibility(View.VISIBLE);
 //            showProgress("Receiving...");
             btnSearch.setEnabled(false);
+            btnContactSync.setEnabled(false);
+
         }
 
         @Override
@@ -267,67 +277,6 @@ public class VoiceSearchActivity extends AppCompatActivity {
             startListning(true);
         }
     }
-
-    /**
-     * Listener to receive search state information and final search results.
-     *//*
-    private class Listener implements VoiceSearch.RawResponseListener {
-
-        @Override
-        public void onTranscriptionUpdate(final PartialTranscript transcript) {
-            switch (voiceSearch.getState()) {
-                case STATE_STARTED:
-                    statusTextView.setText("Listening...");
-                    break;
-
-                case STATE_SEARCHING:
-                    statusTextView.setText("Receiving...");
-                    break;
-
-                default:
-                    statusTextView.setText("Unknown");
-                    break;
-            }
-
-            contentTextView.setText("Transcription:\n" + transcript.getPartialTranscript());
-        }
-
-        @Override
-        public void onResponse(String rawResponse, VoiceSearchInfo voiceSearchInfo) {
-            voiceSearch = null;
-
-            statusTextView.setText("Received Response");
-
-            String jsonString;
-            try {
-                jsonString = new JSONObject(rawResponse).toString(2);
-            } catch (final JSONException ex) {
-                jsonString = "Failed to parse content:\n" + rawResponse;
-            }
-
-            contentTextView.setText(jsonString);
-            btnSearch.setText("Search");
-        }
-
-        @Override
-        public void onError(final Exception ex, final VoiceSearchInfo info) {
-            voiceSearch = null;
-
-            statusTextView.setText("Something went wrong");
-            contentTextView.setText(exceptionToString(ex));
-        }
-
-        @Override
-        public void onRecordingStopped() {
-            statusTextView.setText("Receiving...");
-        }
-
-        @Override
-        public void onAbort(final VoiceSearchInfo info) {
-            voiceSearch = null;
-            statusTextView.setText("Aborted");
-        }
-    }*/;
 
     private HoundRequestInfo getHoundRequestInfo() {
         final HoundRequestInfo requestInfo = HoundRequestInfoFactory.getDefault(this);
@@ -876,6 +825,7 @@ public class VoiceSearchActivity extends AppCompatActivity {
         Log.e("startListning", "isPlayBeep : " + isPlayBeep);
         printStackTrace("isPlayBeep");
         btnSearch.setEnabled(true);
+        btnContactSync.setEnabled(true);
         pb.setVisibility(View.INVISIBLE);
         hideProgress();
         if (isPlayBeep) {
@@ -929,7 +879,7 @@ public class VoiceSearchActivity extends AppCompatActivity {
                                    public void onPermissionsChecked(MultiplePermissionsReport multiplePermissionsReport) {
                                        if (multiplePermissionsReport.areAllPermissionsGranted()) {
                                            locationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
-                                           if (isContactSynced) {
+                                           if (PrefManager.getInstance().isContactSync()) {
                                                startListning(true);
                                            } else {
                                                getContacts();
@@ -1025,46 +975,46 @@ public class VoiceSearchActivity extends AppCompatActivity {
     // the contacts information to the cloud.  You can subsequently run this if the contacts change and
     // you want to overwrite when is in the cloud.
     private void startTextSearchForContactsUpload() {
-        if (asyncTextSearch != null) {
-            return; // We are already searching
-        }
-        AsyncTextSearch.Builder builder = new AsyncTextSearch.Builder()
-                .setRequestInfo(getHoundRequestInfoForContactsUpload())
-                .setClientId(PrefManager.CLIENT_ID)
-                .setClientKey(PrefManager.CLIENT_KEY)
-                .setListener(new TextSearchListener() {
-                    @Override
-                    public void onResponse(HoundResponse response, VoiceSearchInfo info) {
-                        if (response.getStatus().equals(HoundResponse.Status.OK)) {
-                            System.out.println("Contact Synced Successfully");
-                            statusTextView.setText("Contact Synced Successfully");
-                            startListning(true);
-                            String message;
-                            try {
-                                message = new JSONObject(info.getContentBody()).toString(2);
-                            } catch (final JSONException ex) {
+        if (asyncTextSearch == null) {
+            AsyncTextSearch.Builder builder = new AsyncTextSearch.Builder()
+                    .setRequestInfo(getHoundRequestInfoForContactsUpload())
+                    .setClientId(PrefManager.CLIENT_ID)
+                    .setClientKey(PrefManager.CLIENT_KEY)
+                    .setListener(new TextSearchListener() {
+                        @Override
+                        public void onResponse(HoundResponse response, VoiceSearchInfo info) {
+                            if (response.getStatus().equals(HoundResponse.Status.OK)) {
+                                System.out.println("Contact Synced Successfully");
+                                statusTextView.setText("Contact Synced Successfully");
+                                startListning(true);
+                                String message;
+                                try {
+                                    message = new JSONObject(info.getContentBody()).toString(2);
+                                } catch (final JSONException ex) {
 
-                                message = "Bad JSON\n\n" + response;
+                                    message = "Bad JSON\n\n" + response;
+                                }
+
+                                System.out.println("RESPONSE : " + message);
+                            } else {
+                                System.out.println("Request failed with: " + response.getErrorMessage());
                             }
-
-                            System.out.println("RESPONSE : " + message);
-                        } else {
-                            System.out.println("Request failed with: " + response.getErrorMessage());
                         }
-                    }
 
-                    @Override
-                    public void onError(Exception e, VoiceSearchInfo info) {
+                        @Override
+                        public void onError(Exception e, VoiceSearchInfo info) {
 
-                    }
+                        }
 
-                    @Override
-                    public void onAbort(VoiceSearchInfo info) {
+                        @Override
+                        public void onAbort(VoiceSearchInfo info) {
 
-                    }
-                })
-                .setQuery("user_contacts_request");
-        asyncTextSearch = builder.build();
+                        }
+                    })
+                    .setQuery("user_contacts_request");
+            asyncTextSearch = builder.build();
+        }
+
         asyncTextSearch.start();
         statusTextView.setText("Uploading Contacts...");
         btnSearch.setEnabled(false);
@@ -1155,7 +1105,7 @@ public class VoiceSearchActivity extends AppCompatActivity {
                 phoneContacts.clear();
                 phoneContacts.addAll(contacts);
                 startTextSearchForContactsUpload();
-                isContactSynced = true;
+                PrefManager.getInstance().setContactSync(true);
             }
 
             @Override
