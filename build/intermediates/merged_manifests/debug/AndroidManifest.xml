@@ -24,6 +24,8 @@
     <uses-permission android:name="android.permission.SEND_SMS" />
     <uses-permission android:name="android.permission.WRITE_SMS" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <!-- <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/> -->
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
 
     <application
@@ -64,6 +66,7 @@
             android:name="com.houndify.sample.VoiceSearchActivity"
             android:excludeFromRecents="true"
             android:label="Houndify"
+            android:launchMode="singleTask"
             android:screenOrientation="portrait" >
             <intent-filter>
 
