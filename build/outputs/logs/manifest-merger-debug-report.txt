@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:2:1-86:12
-INJECTED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:2:1-86:12
-INJECTED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:2:1-86:12
-INJECTED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:2:1-86:12
+ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:2:1-89:12
+INJECTED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:2:1-89:12
+INJECTED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:2:1-89:12
+INJECTED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:2:1-89:12
 MERGED from [tk.zielony:carbon:0.16.0.1] /Users/milin/.gradle/caches/transforms-2/files-2.1/d16a456cf9e2beb665d88da4d22703b6/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.databinding:databinding-adapters:3.4.1] /Users/milin/.gradle/caches/transforms-2/files-2.1/54c3648b291b13a049205c26f1dd9e83/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.databinding:databinding-runtime:3.4.1] /Users/milin/.gradle/caches/transforms-2/files-2.1/9a4896af18efdc9bcc3a1bb599bd1fd0/AndroidManifest.xml:17:1-24:12
@@ -54,22 +54,22 @@ MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/milin/.gr
 MERGED from [soundhound.android:speex:1.3.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/11f074e41f8c3fb285cab94cc7a9d799/AndroidManifest.xml:2:1-13:12
 MERGED from [soundhound.android:ogg-opus-encoder:1.0.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/98229c1bfca6b7f2212d866e220faa85/AndroidManifest.xml:2:1-11:12
 MERGED from [soundhound.android:vad:1.2.0] /Users/milin/.gradle/caches/transforms-2/files-2.1/f3348e3bba35ee264047f92431dd8174/AndroidManifest.xml:2:1-13:12
-INJECTED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:2:1-86:12
-INJECTED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:2:1-86:12
-INJECTED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:2:1-86:12
+INJECTED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:2:1-89:12
+INJECTED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:2:1-89:12
+INJECTED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:2:1-89:12
 	package
 		ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:4:5-34
 		INJECTED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml
 		INJECTED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml
-		ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:2:1-86:12
+		ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:2:1-89:12
 		INJECTED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml
 	xmlns:tools
 		ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml
-		ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:2:1-86:12
+		ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:2:1-89:12
 		INJECTED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:2:11-69
@@ -144,7 +144,7 @@ ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-andr
 	android:name
 		ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:23:22-75
 application
-ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:25:5-84:19
+ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:25:5-87:19
 MERGED from [com.mapzen.android:speakerbox:1.4.1] /Users/milin/.gradle/caches/transforms-2/files-2.1/03fbb156da57256d6c154e5ab83f52be/AndroidManifest.xml:11:5-15:19
 MERGED from [com.mapzen.android:speakerbox:1.4.1] /Users/milin/.gradle/caches/transforms-2/files-2.1/03fbb156da57256d6c154e5ab83f52be/AndroidManifest.xml:11:5-15:19
 MERGED from [com.karumi:dexter:6.2.2] /Users/milin/.gradle/caches/transforms-2/files-2.1/c8776a9348088186168c6c9d86f5b6d9/AndroidManifest.xml:26:5-30:19
@@ -214,57 +214,63 @@ ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-andr
 	android:name
 		ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:55:19-79
 activity#com.houndify.sample.VoiceSearchActivity
-ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:56:9-81:20
+ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:56:9-84:20
 	android:screenOrientation
-		ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:61:13-49
+		ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:64:13-49
 	android:label
 		ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:59:13-37
+	android:turnScreenOn
+		ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:62:13-40
 	android:excludeFromRecents
 		ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:58:13-46
+	android:showWhenLocked
+		ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:61:13-42
 	android:launchMode
+		ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:63:13-44
+	android:showOnLockScreen
 		ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:60:13-44
 	android:name
 		ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:57:13-48
 intent-filter#action:name:android.Intent.ACTION_USER_PRESENT+action:name:android.intent.action.SCREEN_OFF+action:name:android.intent.action.SCREEN_ON+action:name:android.permission.WAKE_LOCK
-ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:62:13-70:29
+ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:65:13-73:29
 action#android.intent.action.SCREEN_ON
-ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:66:17-74
+ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:69:17-74
 	android:name
-		ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:66:25-71
+		ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:69:25-71
 action#android.intent.action.SCREEN_OFF
-ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:67:17-75
+ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:70:17-75
 	android:name
-		ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:67:25-72
+		ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:70:25-72
 action#android.Intent.ACTION_USER_PRESENT
-ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:68:17-77
+ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:71:17-77
 	android:name
-		ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:68:25-74
+		ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:71:25-74
 action#android.permission.WAKE_LOCK
-ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:69:17-71
-	android:name
-		ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:69:25-68
-intent-filter#action:name:android.intent.action.ASSIST+category:name:android.intent.category.DEFAULT
-ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:71:13-75:29
-action#android.intent.action.ASSIST
 ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:72:17-71
 	android:name
 		ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:72:25-68
+intent-filter#action:name:android.intent.action.ASSIST+category:name:android.intent.category.DEFAULT
+ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:74:13-78:29
+action#android.intent.action.ASSIST
+ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:75:17-71
+	android:name
+		ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:75:25-68
 intent-filter#action:name:android.intent.action.VOICE_COMMAND+category:name:android.intent.category.DEFAULT
-ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:76:13-80:29
+ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:79:13-83:29
 	android:priority
-		ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:76:28-48
+		ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:79:28-48
 action#android.intent.action.VOICE_COMMAND
-ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:77:17-78
+ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:80:17-78
 	android:name
-		ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:77:25-75
+		ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:80:25-75
 activity#com.houndify.sample.TextSearchActivity
-ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:82:9-56
+ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:85:9-56
 	android:name
-		ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:82:19-53
+		ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:85:19-53
 activity#com.houndify.sample.TextSearchActivityNew
-ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:83:9-59
+ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:86:9-59
 	android:name
-		ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:83:19-56
+		ADDED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml:86:19-56
 uses-sdk
 INJECTED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/src/main/AndroidManifest.xml

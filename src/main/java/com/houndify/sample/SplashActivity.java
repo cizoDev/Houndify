@@ -9,6 +9,7 @@ import android.os.Build;
 import android.os.Bundle;
 import android.os.UserHandle;
 import android.provider.Settings;
+import android.view.WindowManager;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
@@ -22,6 +23,16 @@ public class SplashActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q) {
+            setShowWhenLocked(true);
+            setTurnScreenOn(true);
+        } else {
+            getWindow().addFlags(WindowManager.LayoutParams.FLAG_SHOW_WHEN_LOCKED);
+            getWindow().addFlags(WindowManager.LayoutParams.FLAG_DISMISS_KEYGUARD);
+            getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
+            getWindow().addFlags(WindowManager.LayoutParams.FLAG_TURN_SCREEN_ON);
+            getWindow().addFlags(WindowManager.LayoutParams.FLAG_ALLOW_LOCK_WHILE_SCREEN_ON);
+        }
     }
 
     private void openVoiceScreen() {

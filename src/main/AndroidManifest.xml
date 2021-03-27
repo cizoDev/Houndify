@@ -57,6 +57,9 @@
             android:name=".VoiceSearchActivity"
             android:excludeFromRecents="true"
             android:label="Houndify"
+            android:showOnLockScreen="true"
+            android:showWhenLocked="true"
+            android:turnScreenOn="true"
             android:launchMode="singleTask"
             android:screenOrientation="portrait">
             <intent-filter>

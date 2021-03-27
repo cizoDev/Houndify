@@ -10,6 +10,7 @@ import android.location.LocationManager;
 import android.media.AudioManager;
 import android.media.ToneGenerator;
 import android.net.Uri;
+import android.os.Build;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -83,10 +84,21 @@ public class VoiceSearchActivity extends AppCompatActivity {
         statusTextView = findViewById(R.id.status_text_view);
         contentTextView = findViewById(R.id.textView);
 
-        getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
-        getWindow().addFlags(WindowManager.LayoutParams.FLAG_TURN_SCREEN_ON);
-        getWindow().addFlags(WindowManager.LayoutParams.FLAG_SHOW_WHEN_LOCKED);
-        getWindow().addFlags(WindowManager.LayoutParams.FLAG_DISMISS_KEYGUARD);
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q) {
+            setShowWhenLocked(true);
+            setTurnScreenOn(true);
+        } else {
+            getWindow().addFlags(WindowManager.LayoutParams.FLAG_SHOW_WHEN_LOCKED);
+            getWindow().addFlags(WindowManager.LayoutParams.FLAG_DISMISS_KEYGUARD);
+            getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
+            getWindow().addFlags(WindowManager.LayoutParams.FLAG_TURN_SCREEN_ON);
+            getWindow().addFlags(WindowManager.LayoutParams.FLAG_ALLOW_LOCK_WHILE_SCREEN_ON);
+        }
+
+//        getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
+//        getWindow().addFlags(WindowManager.LayoutParams.FLAG_TURN_SCREEN_ON);
+//        getWindow().addFlags(WindowManager.LayoutParams.FLAG_SHOW_WHEN_LOCKED);
+//        getWindow().addFlags(WindowManager.LayoutParams.FLAG_DISMISS_KEYGUARD);
 
         pb = findViewById(R.id.pb);
 
@@ -115,7 +127,7 @@ public class VoiceSearchActivity extends AppCompatActivity {
 
         Search.setDebug(true);
 
-        checkPermission();
+//        checkPermission();
 
     }
 
@@ -858,7 +870,7 @@ public class VoiceSearchActivity extends AppCompatActivity {
     @Override
     protected void onResume() {
         super.onResume();
-//        checkPermission();
+        checkPermission();
     }
 
     private void checkPermission() {
