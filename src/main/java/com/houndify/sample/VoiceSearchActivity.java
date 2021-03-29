@@ -945,11 +945,17 @@ public class VoiceSearchActivity extends AppCompatActivity {
         runOnUiThread(() -> Toast.makeText(VoiceSearchActivity.this, text, Toast.LENGTH_SHORT).show());
     }
 
-    private void playPip() {
+    /*private void playPip() {
 //        ToneGenerator toneGen1 = new ToneGenerator(AudioManager.STREAM_MUSIC, 100);
 //        toneGen1.startTone(ToneGenerator.TONE_CDMA_ABBR_ALERT, 150);
 
         ToneGenerator toneGen1 = new ToneGenerator(AudioManager.STREAM_VOICE_CALL, 100);
+        toneGen1.startTone(ToneGenerator.TONE_CDMA_PIP, 200);
+
+    }*/
+
+    private void playPip() {
+        ToneGenerator toneGen1 = new ToneGenerator(AudioManager.STREAM_MUSIC, 110);
         toneGen1.startTone(ToneGenerator.TONE_CDMA_PIP, 200);
 
     }
