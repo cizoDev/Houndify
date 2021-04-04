@@ -121,7 +121,7 @@ public class VoiceSearchActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 stopSearch();
-                startTextSearchForContactsUpload();
+                getContacts();
             }
         });
 
@@ -835,7 +835,7 @@ public class VoiceSearchActivity extends AppCompatActivity {
 
     private void startListning(boolean isPlayBeep) {
         Log.e("startListning", "isPlayBeep : " + isPlayBeep);
-        printStackTrace("isPlayBeep");
+        printStackTrace("startListning");
         btnSearch.setEnabled(true);
         btnContactSync.setEnabled(true);
         pb.setVisibility(View.INVISIBLE);
@@ -858,6 +858,12 @@ public class VoiceSearchActivity extends AppCompatActivity {
 //            voiceSearch.stopRecording();
 //            voiceSearch = null;
 //        }
+    }
+
+    @Override
+    public void onStop() {
+        super.onStop();
+        this.finish();
     }
 
     @Override
@@ -993,6 +999,7 @@ public class VoiceSearchActivity extends AppCompatActivity {
     // the contacts information to the cloud.  You can subsequently run this if the contacts change and
     // you want to overwrite when is in the cloud.
     private void startTextSearchForContactsUpload() {
+        asyncTextSearch = null;
         if (asyncTextSearch == null) {
             AsyncTextSearch.Builder builder = new AsyncTextSearch.Builder()
                     .setRequestInfo(getHoundRequestInfoForContactsUpload())
@@ -1002,7 +1009,7 @@ public class VoiceSearchActivity extends AppCompatActivity {
                         @Override
                         public void onResponse(HoundResponse response, VoiceSearchInfo info) {
                             if (response.getStatus().equals(HoundResponse.Status.OK)) {
-                                System.out.println("Contact Synced Successfully");
+                                System.out.println("CONTACT SYNC : Contact Synced Successfully");
                                 statusTextView.setText("Contact Synced Successfully");
                                 startListning(true);
                                 String message;
@@ -1016,17 +1023,21 @@ public class VoiceSearchActivity extends AppCompatActivity {
                                 System.out.println("RESPONSE : " + message);
                             } else {
                                 System.out.println("Request failed with: " + response.getErrorMessage());
+
+                                System.out.println("CONTACT SYNC : Request failed with: " + response.getErrorMessage());
                             }
+
                         }
 
                         @Override
                         public void onError(Exception e, VoiceSearchInfo info) {
-
+                            System.out.println("CONTACT SYNC :  onError : " + e.getMessage());
                         }
 
                         @Override
                         public void onAbort(VoiceSearchInfo info) {
 
+                            System.out.println("CONTACT SYNC :  onAbort : ");
                         }
                     })
                     .setQuery("user_contacts_request");
@@ -1074,7 +1085,7 @@ public class VoiceSearchActivity extends AppCompatActivity {
 
         }
         createAddContactsJsonNew(requestInfo, contacts);
-        System.out.println("Request Info : " + requestInfo.toString());
+        System.out.println("CONTACT SYNC  : Request Info : " + requestInfo.toString());
         return requestInfo;
     }
 
@@ -1097,7 +1108,7 @@ public class VoiceSearchActivity extends AppCompatActivity {
         ObjectNode addRequest = JsonNodeFactory.instance.objectNode();
         ArrayNode requestArray = JsonNodeFactory.instance.arrayNode();
         ArrayNode contactsArray = JsonNodeFactory.instance.arrayNode();
-        System.out.println("Request Info : total contacts = " + contacts.size());
+        System.out.println("CONTACT SYNC : Request Info : total contacts = " + contacts.size());
         try {
             for (Contact contact : contacts) {
                 contactsArray.add(objectMapper.convertValue(contact, ObjectNode.class));

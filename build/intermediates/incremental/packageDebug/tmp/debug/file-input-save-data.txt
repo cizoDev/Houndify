@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sat Mar 27 22:25:52 GST 2021
+#Sat Apr 03 01:04:04 GST 2021
 17.baseType=DIRECTORY
 4.path=lib/armeabi-v7a/libvad_sh.so
 25.base=/WorkSpace/Android-Studio-Project/cizotech-project/houndify-demo-android/build/intermediates/transforms/stripDebugSymbol/debug/0

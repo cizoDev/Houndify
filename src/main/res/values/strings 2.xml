@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-
-    <string name="app_name">Houndify</string>
-    <string name="link_to_houndify_dashboard">Hint: \nGo to https://www.houndify.com/dashboard to access or create your credentials. Copy the ID/Key pair and paste them here.</string>
-    <string name="title_activity_no_diplay">NoDiplayActivity</string>
-
-</resources>
